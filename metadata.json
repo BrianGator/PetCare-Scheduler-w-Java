@@ -1,0 +1,6 @@
+{
+  "name": "PetCare Scheduler w Java",
+  "description": "A Java console application for managing pet health records and scheduling appointments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
