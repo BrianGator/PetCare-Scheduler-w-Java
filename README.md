@@ -10,14 +10,13 @@ The application is currently configured in PetCareScheduler.java.
 Here is a output showing the menu options and how the application handles user input as it is executed.
 ----------------------------------------------------------------------------------------------------------------------------------
 
-Data loaded successfully.
+Data loaded successfully. <br><br>
 
---- PetCare Scheduler ---
-
-Register Pet
-Schedule Appointment
-Display Data
-Generate Reports
+--- PetCare Scheduler --- <br>
+Register Pet <br>
+Schedule Appointment <br>
+Display Data <br>
+Generate Reports <br>
 Save & Exit <br><br>
 
 Select an option: 1 <br>
@@ -30,10 +29,10 @@ Pet registered successfully! <br>
 
 --- PetCare Scheduler ---
 
-Register Pet
-Schedule Appointment
-Display Data
-Generate Reports
+Register Pet <br>
+Schedule Appointment <br>
+Display Data <br>
+Generate Reports <br>
 Save & Exit <br> <br>
 
 Select an option: 2 <br>
@@ -42,11 +41,11 @@ Enter Appointment Type (vet visit, vaccination, grooming): vaccination <br>
 Enter Date and Time (yyyy-MM-dd HH:mm): 2026-10-15 10:30 <br>
 Enter Notes (optional): Annual rabies shot Appointment scheduled successfully! <br>
 
---- PetCare Scheduler ---
-Register Pet
-Schedule Appointment
-Display Data
-Generate Reports
+--- PetCare Scheduler --- <br>
+Register Pet <br>
+Schedule Appointment <br>
+Display Data <br>
+Generate Reports <br>
 Save & Exit <br><br>
 
 Select an option: 5 <br>
@@ -59,10 +58,10 @@ Here is the output showing the pet registration process:
 
 --- PetCare Scheduler ---
 
-Register Pet
-Schedule Appointment
-Display Data
-Generate Reports
+Register Pet <br>
+Schedule Appointment <br>
+Display Data <br>
+Generate Reports <br>
 Save & Exit <br><br>
 
 Select an option: 1 <br>
@@ -80,10 +79,10 @@ Here is the sample output for the PetCare Scheduler when the "Schedule Appointme
 
 --- PetCare Scheduler ---
 
-Register Pet
-Schedule Appointment
-Display Data
-Generate Reports
+Register Pet <br>
+Schedule Appointment <br>
+Display Data <br>
+Generate Reports <br>
 Save & Exit <br><br>
 
 Select an option: 2 <br>
