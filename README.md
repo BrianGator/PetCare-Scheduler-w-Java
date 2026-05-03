@@ -18,13 +18,15 @@ Register Pet
 Schedule Appointment
 Display Data
 Generate Reports
-Save & Exit Select an option: 1
---- Register a New Pet --- 
-Enter Unique Pet ID: P001 
-Enter Name: Buddy Enter Species/Breed: Golden Retriever 
-Enter Age: 3 Enter Owner Name: John Doe 
-Enter Contact Info: 555-0199 
-Pet registered successfully!
+Save & Exit <br><br>
+
+Select an option: 1 <br>
+--- Register a New Pet --- <br>
+Enter Unique Pet ID: P001 <br>
+Enter Name: Buddy Enter Species/Breed: Golden Retriever <br>
+Enter Age: 3 Enter Owner Name: John Doe <br>
+Enter Contact Info: 555-0199 <br>
+Pet registered successfully! <br>
 
 --- PetCare Scheduler ---
 
@@ -32,23 +34,24 @@ Register Pet
 Schedule Appointment
 Display Data
 Generate Reports
-Save & Exit Select an option: 2
-Enter Pet ID for the appointment: P001 
-Enter Appointment Type (vet visit, vaccination, grooming): vaccination 
-Enter Date and Time (yyyy-MM-dd HH:mm): 2026-10-15 10:30 
-Enter Notes (optional): Annual rabies shot Appointment scheduled successfully!
+Save & Exit <br> <br>
+
+Select an option: 2 <br>
+Enter Pet ID for the appointment: P001 <br> 
+Enter Appointment Type (vet visit, vaccination, grooming): vaccination <br>
+Enter Date and Time (yyyy-MM-dd HH:mm): 2026-10-15 10:30 <br>
+Enter Notes (optional): Annual rabies shot Appointment scheduled successfully! <br>
 
 --- PetCare Scheduler ---
-
 Register Pet
 Schedule Appointment
 Display Data
 Generate Reports
-Save & Exit 
+Save & Exit <br><br>
 
-Select an option: 5 
-Data stored successfully. 
-Exiting... Data saved.
+Select an option: 5 <br>
+Data stored successfully. <br>
+Exiting... Data saved. <br>
 
 ----------------------------------------------------------------------------------------------------------------------------------
 Here is the output showing the pet registration process:
@@ -60,14 +63,16 @@ Register Pet
 Schedule Appointment
 Display Data
 Generate Reports
-Save & Exit Select an option: 1
---- Register a New Pet --- 
-Enter Unique Pet ID: P001 
-Enter Name: Buddy 
-Enter Species/Breed: Golden Retriever 
-Enter Age: 3 
-Enter Owner Name: John Doe 
-Enter Contact Info: 555-0123 Pet registered successfully!
+Save & Exit <br><br>
+
+Select an option: 1 <br>
+--- Register a New Pet --- <br>
+Enter Unique Pet ID: P001 <br>
+Enter Name: Buddy <br>
+Enter Species/Breed: Golden Retriever <br>
+Enter Age: 3 <br>
+Enter Owner Name: John Doe <br>
+Enter Contact Info: 555-0123 Pet registered successfully! <br>
 
 ----------------------------------------------------------------------------------------------------------------------------------
 Here is the sample output for the PetCare Scheduler when the "Schedule Appointment" option is selected:
@@ -79,11 +84,11 @@ Register Pet
 Schedule Appointment
 Display Data
 Generate Reports
-Save & Exit 
+Save & Exit <br><br>
 
-Select an option: 2
-Enter Pet ID for the appointment: P001 
-Enter Appointment Type (vet visit, vaccination, grooming): Vaccination 
-Enter Date and Time (yyyy-MM-dd HH:mm): 2026-06-15 10:00 
-Enter Notes (optional): Annual rabies booster and checkup. 
-Appointment scheduled successfully!
+Select an option: 2 <br>
+Enter Pet ID for the appointment: P001 <br>
+Enter Appointment Type (vet visit, vaccination, grooming): Vaccination <br>
+Enter Date and Time (yyyy-MM-dd HH:mm): 2026-06-15 10:00 <br>
+Enter Notes (optional): Annual rabies booster and checkup. <br>
+Appointment scheduled successfully! <br>
