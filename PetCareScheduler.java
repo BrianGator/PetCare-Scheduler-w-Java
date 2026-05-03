@@ -18,10 +18,9 @@ public class PetCareScheduler {
             System.out.println("\n--- PetCare Scheduler ---");
             System.out.println("1. Register Pet");
             System.out.println("2. Schedule Appointment");
-            System.out.println("3. Display Records");
-            System.out.println("4. Store Data");
-            System.out.println("5. Generate Reports");
-            System.out.println("6. Exit");
+            System.out.println("3. Display Data");
+            System.out.println("4. Generate Reports");
+            System.out.println("5. Save & Exit");
             System.out.print("Select an option: ");
 
             try {
@@ -29,10 +28,9 @@ public class PetCareScheduler {
                 switch (choice) {
                     case 1: registerPet(); break;
                     case 2: scheduleAppointment(); break;
-                    case 3: displayRecords(); break;
-                    case 4: storeData(); break;
-                    case 5: generateReports(); break;
-                    case 6: 
+                    case 3: displayData(); break;
+                    case 4: generateReports(); break;
+                    case 5: 
                         storeData();
                         running = false;
                         System.out.println("Exiting... Data saved.");
@@ -118,8 +116,8 @@ public class PetCareScheduler {
         System.out.println("Appointment scheduled successfully!");
     }
 
-    private static void displayRecords() {
-        System.out.println("\n--- Display Records ---");
+    private static void displayData() {
+        System.out.println("\n--- Display Data ---");
         System.out.println("1. All Registered Pets");
         System.out.println("2. Appointments for a Specific Pet");
         System.out.println("3. Upcoming Appointments (All Pets)");
