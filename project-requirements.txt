@@ -1,0 +1,72 @@
+# Project Requirements: PetCare Scheduler (Java)
+
+## 1. Object Blueprint Classes
+
+### Appointment.java
+- **Attributes**:
+  - Appointment type (e.g., vet visit, vaccination, grooming)
+  - Date and time (LocalDateTime)
+  - Notes (String, optional)
+- **Requirements**:
+  - Provide appropriate getters and setters.
+  - Override `toString()` to provide a formatted string representation of the appointment.
+
+### Pet.java
+- **Attributes**:
+  - Unique Pet ID
+  - Name
+  - Species/Breed
+  - Age
+  - Owner name
+  - Contact info
+  - Registration date
+  - List of appointments
+- **Requirements**:
+  - Provide appropriate getters and setters.
+  - Implement `Serializable` for data persistence.
+
+## 2. Main Application Logic (PetCareScheduler.java)
+
+- **Class Structure**: Main entry point containing the `main` method and helper methods for user actions.
+- **IO Handling**: Use `java.util.Scanner` for console input.
+- **Collections**: Maintain a collection of `Pet` objects (which internally hold their `Appointment` lists).
+- **Control Flow**: Implement a `switch-case` loop to process user menu selections.
+
+## 3. Functional Requirements
+
+### User Operations
+- **Register Pet**: Collect details for a new pet profile and add it to the system.
+- **Schedule Appointment**: Link a new appointment to an existing pet.
+- **Display Data**: Provide options to view:
+  - All registered pets.
+  - Appointment history for a specific pet.
+  - All upcoming appointments across all pets.
+  - Past appointment history records.
+- **Store Data**: Persist the list of pets and their appointments to a file using Java File I/O.
+- **Load Data**: Automatically load existing data from the file on application startup.
+- **Generate Reports**:
+  - Pets with upcoming appointments within the next 7 days.
+  - Pets overdue for a vet visit (no "vet visit" type appointment in the last 6 months).
+
+### Validation & Error Handling
+- **Unique IDs**: Ensure Pet IDs are unique during registration.
+- **Future Dates**: Validate that new appointments are set for a future date/time.
+- **Type Safety**: Validate appointment types (e.g., vet visit, vaccination, grooming).
+- **Numeric Inputs**: Handle `NumberFormatException` for age and menu choices.
+- **File Safety**: Gracefully handle missing or corrupted data files.
+
+## 4. Execution Commands
+
+**Compilation**:
+`javac *.java`
+
+**Execution**:
+`java PetCareScheduler`
+
+---
+
+## Task Checklist
+- [x] Task 1: Create Pet and Appointment blueprint classes.
+- [x] Task 2: Create main application logic with file load/save capabilities.
+- [x] Task 3: Implement methods for Pet registration, Appointment scheduling, and Reporting.
+- [x] Task 4: Ensure application functionality through testing and validation.

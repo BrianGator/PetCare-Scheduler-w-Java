@@ -1,93 +1,107 @@
-Prerequisites: Node.js
+# PetCare Scheduler
 
-Install dependencies: npm install
-Set the GEMINI_API_KEY in .env.local to your Gemini API key
-Run the app: npm run dev
+Prerequisites: Node.js (for the development environment), Java JDK 8+ (for running the scheduler)
 
-The application is currently configured in PetCareScheduler.java. 
+## Setup instructions
 
-----------------------------------------------------------------------------------------------------------------------------------
-Here is a output showing the menu options and how the application handles user input as it is executed.
-----------------------------------------------------------------------------------------------------------------------------------
+Install dependencies:
+```bash
+npm install
+```
 
-Data loaded successfully. <br><br>
+Set the `GEMINI_API_KEY` in `.env.local` to your Gemini API key (if applicable for extended features).
 
---- PetCare Scheduler --- <br>
-Register Pet <br>
-Schedule Appointment <br>
-Display Data <br>
-Generate Reports <br>
-Save & Exit <br><br>
+Run the dev environment:
+```bash
+npm run dev
+```
 
-Select an option: 1 <br>
---- Register a New Pet --- <br>
-Enter Unique Pet ID: P001 <br>
-Enter Name: Buddy Enter Species/Breed: Golden Retriever <br>
-Enter Age: 3 Enter Owner Name: John Doe <br>
-Enter Contact Info: 555-0199 <br>
-Pet registered successfully! <br>
+The application logic is implemented in `PetCareScheduler.java`.
 
---- PetCare Scheduler ---
+---
 
-Register Pet <br>
-Schedule Appointment <br>
-Display Data <br>
-Generate Reports <br>
-Save & Exit <br> <br>
+## Sample Application Output
 
-Select an option: 2 <br>
-Enter Pet ID for the appointment: P001 <br> 
-Enter Appointment Type (vet visit, vaccination, grooming): vaccination <br>
-Enter Date and Time (yyyy-MM-dd HH:mm): 2026-10-15 10:30 <br>
-Enter Notes (optional): Annual rabies shot Appointment scheduled successfully! <br>
-
---- PetCare Scheduler --- <br>
-Register Pet <br>
-Schedule Appointment <br>
-Display Data <br>
-Generate Reports <br>
-Save & Exit <br><br>
-
-Select an option: 5 <br>
-Data stored successfully. <br>
-Exiting... Data saved. <br>
-
-----------------------------------------------------------------------------------------------------------------------------------
-Here is the output showing the pet registration process:
-----------------------------------------------------------------------------------------------------------------------------------
+### Menu Options and User Input Handling
+```text
+Data loaded successfully.
 
 --- PetCare Scheduler ---
+1. Register Pet
+2. Schedule Appointment
+3. Display Data
+4. Generate Reports
+5. Save & Exit
 
-Register Pet <br>
-Schedule Appointment <br>
-Display Data <br>
-Generate Reports <br>
-Save & Exit <br><br>
-
-Select an option: 1 <br>
---- Register a New Pet --- <br>
-Enter Unique Pet ID: P001 <br>
-Enter Name: Buddy <br>
-Enter Species/Breed: Golden Retriever <br>
-Enter Age: 3 <br>
-Enter Owner Name: John Doe <br>
-Enter Contact Info: 555-0123 Pet registered successfully! <br>
-
-----------------------------------------------------------------------------------------------------------------------------------
-Here is the sample output for the PetCare Scheduler when the "Schedule Appointment" option is selected:
-----------------------------------------------------------------------------------------------------------------------------------
+Select an option: 1
+--- Register a New Pet ---
+Enter Unique Pet ID: P001
+Enter Name: Buddy 
+Enter Species/Breed: Golden Retriever
+Enter Age: 3 
+Enter Owner Name: John Doe
+Enter Contact Info: 555-0199
+Pet registered successfully!
 
 --- PetCare Scheduler ---
+1. Register Pet
+2. Schedule Appointment
+3. Display Data
+4. Generate Reports
+5. Save & Exit
 
-Register Pet <br>
-Schedule Appointment <br>
-Display Data <br>
-Generate Reports <br>
-Save & Exit <br><br>
+Select an option: 2
+Enter Pet ID for the appointment: P001
+Enter Appointment Type (vet visit, vaccination, grooming): vaccination
+Enter Date and Time (yyyy-MM-dd HH:mm): 2026-10-15 10:30
+Enter Notes (optional): Annual rabies shot 
+Appointment scheduled successfully!
 
-Select an option: 2 <br>
-Enter Pet ID for the appointment: P001 <br>
-Enter Appointment Type (vet visit, vaccination, grooming): Vaccination <br>
-Enter Date and Time (yyyy-MM-dd HH:mm): 2026-06-15 10:00 <br>
-Enter Notes (optional): Annual rabies booster and checkup. <br>
-Appointment scheduled successfully! <br>
+--- PetCare Scheduler ---
+1. Register Pet
+2. Schedule Appointment
+3. Display Data
+4. Generate Reports
+5. Save & Exit
+
+Select an option: 5
+Data stored successfully.
+Exiting... Data saved.
+```
+
+### Pet Registration Process
+```text
+--- PetCare Scheduler ---
+1. Register Pet
+2. Schedule Appointment
+3. Display Data
+4. Generate Reports
+5. Save & Exit
+
+Select an option: 1
+--- Register a New Pet ---
+Enter Unique Pet ID: P001
+Enter Name: Buddy
+Enter Species/Breed: Golden Retriever
+Enter Age: 3
+Enter Owner Name: John Doe
+Enter Contact Info: 555-0123 
+Pet registered successfully!
+```
+
+### Appointment Scheduling Process
+```text
+--- PetCare Scheduler ---
+1. Register Pet
+2. Schedule Appointment
+3. Display Data
+4. Generate Reports
+5. Save & Exit
+
+Select an option: 2
+Enter Pet ID for the appointment: P001
+Enter Appointment Type (vet visit, vaccination, grooming): Vaccination
+Enter Date and Time (yyyy-MM-dd HH:mm): 2026-06-15 10:00
+Enter Notes (optional): Annual rabies booster and checkup.
+Appointment scheduled successfully!
+```
