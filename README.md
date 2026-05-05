@@ -46,6 +46,29 @@ To run the Java console application locally:
 
 ---
 
+## Testing & Quality Assurance
+The PetCare Scheduler includes a comprehensive suite of automated and manual test cases across 12 distinct categories to ensure software reliability and security.
+
+### Test Suites Overview:
+| Category | Test Count | Key Files |
+|----------|------------|-----------|
+| **Unit Testing** | 8 Cases | `/Unit-Tests/UnitTests-Report.md` |
+| **Integration Testing** | 8 Cases | `/Integration-Tests/IntegrationTests-Report.md` |
+| **System Testing** | 8 Cases | `/System-Tests/System-Report.md` |
+| **End-to-End Testing** | 8 Cases | `/End-to-End-Tests/E2E-Report.md` |
+| **Performance Testing** | 8 Cases | `/Performance-Tests/Reporting-Dashboard.md` |
+| **Load Testing** | 8 Cases | `/Load-Tests/Load-Report.md` |
+| **Stress Testing** | 8 Cases | `/Stress-Tests/Stress-Report.md` |
+| **Security Testing** | 8 Cases | `/Security-Tests/Global-Integrity-Report.md` |
+| **Selenium Automation** | 15 Cases | `/Selenium-Tests/Selenium-UI-Report.md` |
+| **Playwright Automation** | 15 Cases | `/Playwright-Tests/Playwright-Automation-Report.md` |
+| **Cypress E2E** | 15 Cases | `/Cypress-Tests/Cypress-E2E-Report.md` |
+| **Cucumber BDD** | 15 Cases | `/Cucumber-Tests/Cucumber-BDD-Report.md` |
+
+Detailed test logic, scripts, and verification reports can be found in their respective directories listed above.
+
+---
+
 ## Sample Application Output
 
 ### Pet Registration Process
